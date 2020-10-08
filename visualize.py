@@ -11,7 +11,7 @@ for commit in repo.traverse_commits():
     for modification in commit.modifications:
         date.append(commit.committer_date)
         file.append(modification.filename)
-        change_type.append(modification.change_type)
+        change_type.append(modification.change_type.name)
         lines_added.append(modification.added)
         lines_removed.append(modification.removed)
 
