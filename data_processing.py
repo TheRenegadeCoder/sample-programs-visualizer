@@ -3,7 +3,9 @@ import pandas as pd
 import os
 
 languages = {
-    ".py": "Python"
+    ".py": "Python",
+    ".cpp": "C++",
+    ".java": "Java"
 }
 
 date = []
